@@ -8,3 +8,4 @@
  5) Type your SQL for one question and click Run, 
  6) Once complete, repete step 4 and 5 for each question
 
+Notes: See ERD_secret_santa_SQL_Project.png for the ERD of the 3 tables uses in this project
