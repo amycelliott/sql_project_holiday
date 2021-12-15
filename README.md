@@ -1,5 +1,6 @@
 # sql_project_holiday
 
+Questions for this project are found in the holiday_mysql_questions.sql file.  Be sure to copy and save on your own computer, type your answers here or in the web SQL editor below.  The web app does not save your work (that I've seen yet), so I strongly suggest you save your work locally (Copy and Paste are your friend!).  If you don't have an editor on your computer, open and edit in Notepad.
 
  1) Go To: https://franchise.cloud/app/
  2) MySQL Lite should be selected on the left, click "Blank Notebook" in the middle of the main screen.
