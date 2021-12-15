@@ -1,13 +1,18 @@
-/* Use This file to run in SQL Fiddle to set up the Schema
- * Try https://www.jdoodle.com/execute-sql-online/
+/* Use This file to run Franchise Cloud:
+ * 1) Go To: https://franchise.cloud/app/
+ * 2) MySQL Lite should be selected on the left, click "Blank Notebook" in the middle of the main screen.
+ * 3) Paste this code into the white text box, then click the green run button at the bottom right
+ * 4) Click the + sign at the bottom to create a new White SQL section
+ * 5) Type your SQL for one question and click Run, 
+ * 6) Once complete, repete step 4 and 5 for each question
  */
 
 /* This section should be copied from GitHub and ran once to set up thhe Tables and insert the data */
 
 /* If this runs more than once, drop tables first so it won't fail */
-drop table people;
-drop table secret_santa_selection;
-drop table wish_list;
+drop table IF EXISTS people;
+drop table IF EXISTS secret_santa_selection;
+drop table IF EXISTS wish_list;
 
 /* Create theh People Table 
  * Primary Key (PK) is ID
@@ -35,7 +40,7 @@ values
   ,(8, 'Tamia Stott', 'Pennsylvania')
   ,(9, 'Izabela Waters', 'Florida')
   ,(10, 'Jiya Drew', 'Florida')
-  ,(11, 'Mayur Naylor', 'California')
+  --,(11, 'Mayur Naylor', 'California')
   ,(12, 'Taha Colon', 'Illinois')
   ,(13, 'Shaquille Lang', 'Texas')
   ,(14, 'Brenda Fox', 'Florida')
@@ -89,7 +94,7 @@ values
   ,(17,2019,17,7)
   ,(18,2019,18,10)
   ,(19,2019,19,3)
-  ,(20,2019,20,25)
+  --,(20,2019,20,25)
   ,(21,2019,21,20)
   ,(22,2019,22,23)
   ,(23,2019,23,1)
@@ -135,12 +140,12 @@ values
   ,(63,2021,13,8)
   ,(64,2021,14,24)
   ,(65,2021,15,7)
-  ,(66,2021,16,14)
+  --,(66,2021,16,14)
   ,(67,2021,17,22)
   ,(68,2021,18,4)
   ,(69,2021,19,17)
   ,(70,2021,20,13)
-  ,(71,2021,21,12)
+  --,(71,2021,21,12)
   ,(72,2021,22,5)
   ,(73,2021,23,25)
   ,(74,2021,24,23)
@@ -235,3 +240,4 @@ values
   ,(73,2021,23,'Hey Dewy Portable Facial Humidifier')
   ,(75,2021,25,'Starbucks Gift Card')
 ;
+
